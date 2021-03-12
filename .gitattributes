@@ -1,0 +1,8 @@
+# gitattributes 
+git_ssh text eol=lf
+repo text eol=lf
+hooks/* text eol=lf
+*.yml    text
+.gitattributes text
+KEY      text
+LICENSE* text
