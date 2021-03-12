@@ -4,9 +4,9 @@
   "description": "development",
   "repository": {
     "type": "git",
-    "url": "git@github.com:$USER/$REPO"
+    "url": "git@github.com:sambacha/permit-and-call"
   },
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "@openzeppelin/contracts": "^2.5.1"
   },
