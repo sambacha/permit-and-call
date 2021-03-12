@@ -1,13 +1,13 @@
 // const { expectRevert } = require('openzeppelin-test-helpers');
 // const { expect } = require('chai');
 
-const Soliditemp = artifacts.require('Soliditemp');
+const PermitAndCall = artifacts.require('PermitAndCall');
 
-contract('Soliditemp', function ([_, addr1]) {
-    describe('Soliditemp', async function () {
-        it('should be ok', async function () {
-            this.contract = await Soliditemp.new();
-            await this.contract.func(1);
-        });
+contract('PermitAndCall', function ([_, addr1]) {
+  describe('PermitAndCall', async function () {
+    it('should be ok', async function () {
+      this.contract = await PermitAndCall.new();
+      await this.contract.func(1);
     });
+  });
 });
